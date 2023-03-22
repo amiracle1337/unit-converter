@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.hero-one {
+    padding-top: 10px;
+    background-color: #FAD659;
+}
+
+h1 {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.container-one {
+    display: flex;
+    justify-content: center; 
+}
+
+.input-box {
+    text-align: center;
+    background-color: #FAD659;
+    color: black;
+    width: 200px;
+    height: 120px;
+    border-radius: 5px;
+    font-size: 6rem;
+    font-weight: 800;
+    padding-top: 10px;
+    border: solid 1px #EBCD64;
+    box-shadow: 0px 0px 20px 0px #E5DCBA;
+}
+
+.input-box:focus {
+    outline: none;
+    border: solid 1px #EBCD64;
+    box-shadow: 0px 0px 20px 0px #E5DCBA;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Montserrat';
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+ background-color: #F4F4F4;
+}
+
+.hero-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9F9F9;
+    height: 800px;
+}
+
+.output-box{
+    margin-top: 50px;
+    border: solid 1px black;
+    width: 900px;
+    height: 150px;
+    border: solid 1px #E7E7E7;
+    box-shadow: 0 0 10px 4px #EFEFEF;
+    border-radius: 5px
+}
+
+.output-text {
+    margin-top: 30px;
+    font-size: 16px;
+}
